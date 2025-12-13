@@ -26,6 +26,28 @@ h1, h2 {
   gap: 15px;
 }
 
+.item-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 1.05em;
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.item-title:hover {
+  text-decoration: underline;
+}
+
+.item-price {
+  font-size: 0.95em;
+  color: #444;
+}
+
 .item img {
   width: 60px;
   height: 60px;
